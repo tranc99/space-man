@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100DCC441B6B969F00C833CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100DCC431B6B969F00C833CA /* ProfileViewController.swift */; };
 		102ABC7E1B6B865B0016D9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ABC7D1B6B865B0016D9D3 /* AppDelegate.swift */; };
 		102ABC801B6B865B0016D9D3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ABC7F1B6B865B0016D9D3 /* FirstViewController.swift */; };
 		102ABC821B6B865B0016D9D3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102ABC811B6B865B0016D9D3 /* SecondViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100DCC431B6B969F00C833CA /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		102ABC781B6B865B0016D9D3 /* SpaceMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		102ABC7C1B6B865B0016D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102ABC7D1B6B865B0016D9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				102ABC7D1B6B865B0016D9D3 /* AppDelegate.swift */,
 				102ABC7F1B6B865B0016D9D3 /* FirstViewController.swift */,
 				102ABC811B6B865B0016D9D3 /* SecondViewController.swift */,
+				100DCC431B6B969F00C833CA /* ProfileViewController.swift */,
 				102ABC831B6B865B0016D9D3 /* Main.storyboard */,
 				102ABC861B6B865B0016D9D3 /* Images.xcassets */,
 				102ABC881B6B865C0016D9D3 /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			files = (
 				102ABC821B6B865B0016D9D3 /* SecondViewController.swift in Sources */,
 				102ABC7E1B6B865B0016D9D3 /* AppDelegate.swift in Sources */,
+				100DCC441B6B969F00C833CA /* ProfileViewController.swift in Sources */,
 				102ABC801B6B865B0016D9D3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				102ABC9B1B6B865C0016D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		102ABC9C1B6B865C0016D9D3 /* Build configuration list for PBXNativeTarget "SpaceManTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				102ABC9E1B6B865C0016D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
